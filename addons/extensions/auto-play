@@ -36,11 +36,7 @@ on_opt_parse_auto_play_opts () {
     return 1
 }
 
-on_post_set_vars_auto_play () {
-    : "${auto_play_opts=-a}"
-    user_url_handler=$url_handler
-    url_handler=auto_play_handler
-}
+
 
 print_help_auto_play () {
     printf "%s\n" "After a video ends, auto play the next video recommended by youtube
