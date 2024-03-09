@@ -36,8 +36,11 @@ on_opt_parse_auto_play_opts () {
     return 1
 }
 
-
-
+print("a")
+print("a")
+print("a")
+print("a")
+print("a")
 print_help_auto_play () {
     printf "%s\n" "After a video ends, auto play the next video recommended by youtube
 Options:
